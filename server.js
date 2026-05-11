@@ -28,8 +28,8 @@ app.get("/contact", (request,response) => {
 
 //Start the server
 app.listen(PORT, ()=>{
-    console.log(`Running on port ${PORT}`)
-})
+    console.log(`Server is running on port ${PORT}`)
+});
 
 
 
